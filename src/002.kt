@@ -20,7 +20,7 @@ private fun isEven(value: Int) = value % 2 == 0
 
 private fun saveFibonacciTermsUntilLimit() : List<Int> {
     val list = mutableListOf<Int>()
-    var n = 3
+    var n = 0
     var currentValue = 0
 
     while (currentValue < finalValue) {
